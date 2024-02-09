@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#navbarlogo{
+    color: aquamarine;
+}
+#inputsearch>button{
+    background-color: green;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+#inputsearch>button:hover{
+    background-color: rgb(25, 30, 150);
+    color: white;
+}
+#powerbutton>a{
+   /* background-color: rgb(112, 222, 61); */
+   color: black;
+   font-size: 30px;
+   width: 40px;
+   font-weight:7000;
+   border: none;
+   outline: none;
+   text-align: center;
+   border-radius: 10px;
+}
+#powerbutton>a{
+    font-size: 30px;
+    background-color: rgb(112, 222, 61);
+}
+@media (max-width:950px) {
+    #powerbutton>button{
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+}
+#powerbutton>a:hover{
+    background-color: red;
+    color: white;
+}
+#card1{
+    height: 280px;
+    /* width: 400px; */
+    background: linear-gradient(135deg,rgb(53, 53, 148),rgb(51, 51, 255));    color: white;
+}
+#card1>.card-header{
+    height: 60px;
+    font-size: 25px;
+}
+#card1>.card-body>h1{
+    font-size: 75px;
+    padding-top: 15px;
+}
+#card1>.card-footer{
+    height: 60px;
+    font-size: 20px;
+}
+#card2{
+    height: 280px;
+    /* width: 400px; */
+    background: linear-gradient(135deg,rgb(53, 53, 148),rgb(51, 51, 255));
+    color: white;
+}
+#card2>.card-header{
+    height: 60px;
+    font-size: 25px;
+}
+#card2>.card-body>h1{
+    font-size: 75px;
+    padding-top: 15px;
+}
+#card2>.card-footer{
+    height: 60px;
+    font-size: 20px;
+}

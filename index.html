@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esm App</title>
+    <!-- link the css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- link the javascript file -->
+    <script src="script.js" defer></script>
+    <!-- link the bootstrap file -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <!-- link the bootstrap icon cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(41, 31, 31)">
+        <div class="container-fluid">
+          <a class="navbar-brand unactive" href="#" id="navbarlogo">ESM.02</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 gap-3 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="employeesdata.html">Employees</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="jobdetails.html">Jobs</a>
+              </li>
+            </ul>
+            <form class="d-flex mx-5" role="search" id="inputsearch">
+              <input class="form-control me-2" type="search" placeholder="Search for..." aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+            <form class="d-flex left-5" role="Exit" id="powerbutton">
+                <a href="login.html" class="nav-item"><i class="bi bi-power"></i></a>
+              </form>
+              <!-- iss mai humko log out button ko mention karna hm  -->
+          </div>
+        </div>
+      </nav>
+
+      <!-- cards -->
+
+
+      <div class="container-fluid">
+        <div class="row justify-content-center my-4 mx-4">
+            <div class="col-sm-10 col-md-5 col-lg-4 my-4">
+                <div class="card text-center" id="card1">
+                    <div class="card-header">
+                      Employees List
+                    </div>
+                    <div class="card-body">
+                     <h1>254+</h1>
+                    </div>
+                    <div class="card-footer ">
+                        <a href="employeesdata.html" class="nav-link">View Employees</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-10 col-md-5 col-lg-4 my-4">
+                <div class="card text-center" id="card2">
+                    <div class="card-header">
+                      Jobs List
+                    </div>
+                    <div class="card-body">
+                     <h1>25+</h1>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="nav-link">View all Jobs</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+      </div>
+      <!-- cards -->
+
+    
+    <!-- bootstrap file  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js
+    "></script>
+
+</body>
+</html>

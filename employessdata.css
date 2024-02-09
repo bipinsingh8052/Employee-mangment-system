@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+.h-3{
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+.h-3:hover{
+    background-color: blanchedalmond;
+}
+#employez_card{
+    /* display: flex;
+    
+}
+#employees-card1{
+    height: 200px !important;
+    width: 100%;
+    border: 2px solid black;
+}
+#employees-card1>#heading{
+    height: 50px !important;
+    font-weight:bolder;
+    background-color: blue; 
+}  */
